@@ -1,0 +1,33 @@
+pic2ch
+======
+
+  A gem that provides api to pic2ch
+
+
+Usage
+=====
+
+  threads = Pic2ch.pages.index.threads
+  => [thread, thread, ...]
+
+  thread = threads.first
+  => #<struct Pic2ch::Thread
+      name="【はだし】裸足の女の子の画像 Part6【ハダシ】",
+      link="/thread/34071/",
+      created="10/02/02",
+      star=1>
+
+  thread.jpgs
+  => ["06db8842090121983bd48f7d3bbd8b1d.jpg", ...]
+
+  thread.images
+  => ["http://strage.giox.info/pics3/1257261441/06db8842090121983bd48f7d3bbd8b1d.jpg", ...]
+
+  thread.thumbs
+  => ["http://strage.giox.info/thumbs/1257261441/06db8842090121983bd48f7d3bbd8b1d.jpg", ...]
+
+
+Author
+======
+
+  maiha@wota.jp
