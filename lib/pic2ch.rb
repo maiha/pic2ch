@@ -17,6 +17,7 @@ end
 dir = File.dirname(__FILE__) + '/' + File.basename(__FILE__, '.rb') + '/'
 
 require dir + 'thread'
+require dir + 'thread/static'
 require dir + 'pages'
 require dir + 'parsers'
 require dir + 'downloaders'
