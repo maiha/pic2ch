@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pic2ch}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["maiha"]
-  s.date = %q{2010-02-02}
+  s.date = %q{2010-02-09}
   s.description = %q{A gem that provides api to pic2ch}
   s.email = %q{maiha@wota.jp}
   s.extra_rdoc_files = ["README", "MIT-LICENSE"]
-  s.files = ["MIT-LICENSE", "README", "Rakefile", "lib/pic2ch.rb", "lib/pic2ch", "lib/pic2ch/pages", "lib/pic2ch/pages/index.rb", "lib/pic2ch/parsers", "lib/pic2ch/parsers/thread.rb", "lib/pic2ch/parsers/index.rb", "lib/pic2ch/downloaders.rb", "lib/pic2ch/thread.rb", "lib/pic2ch/downloaders", "lib/pic2ch/downloaders/thread.rb", "lib/pic2ch/thread", "lib/pic2ch/thread/element_parser.rb", "lib/pic2ch/thread/static.rb", "lib/pic2ch/parsers.rb", "lib/pic2ch/cached_accessor.rb", "lib/pic2ch/pages.rb"]
+  s.files = ["MIT-LICENSE", "README", "Rakefile", "lib/pic2ch.rb", "lib/pic2ch", "lib/pic2ch/pages", "lib/pic2ch/pages/index.rb", "lib/pic2ch/parsers", "lib/pic2ch/parsers/thread.rb", "lib/pic2ch/parsers/index.rb", "lib/pic2ch/parsers/errors.rb", "lib/pic2ch/downloaders.rb", "lib/pic2ch/thread.rb", "lib/pic2ch/downloaders", "lib/pic2ch/downloaders/thread.rb", "lib/pic2ch/thread", "lib/pic2ch/thread/element_parser.rb", "lib/pic2ch/thread/static.rb", "lib/pic2ch/parsers.rb", "lib/pic2ch/cached_accessor.rb", "lib/pic2ch/pages.rb", "spec/provide_helper.rb", "spec/fixtures", "spec/fixtures/deleted.html", "spec/fixtures/36603.html", "spec/its_helper.rb", "spec/spec_helper.rb", "spec/thread_parser_spec.rb"]
   s.homepage = %q{http://github.com/maiha/pic2ch}
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{asakusarb}

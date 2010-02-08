@@ -22,7 +22,7 @@ module Pic2ch
       @parser ||= Parsers::Thread.new(self)
     end
 
-    delegate :jpgs, :thumbs, :images, :title, :to=>"parser"
+    delegate :deleted?, :jpgs, :thumbs, :images, :title, :to=>"parser"
 
     ######################################################################
     ### Downloader
